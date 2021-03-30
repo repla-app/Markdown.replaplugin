@@ -3,7 +3,8 @@ GEM
   specs:
     ffi (1.12.2)
     flt (1.5.2)
-    kramdown (2.1.0)
+    kramdown (2.3.1)
+      rexml
     listen (3.2.1)
       rb-fsevent (~> 0.10, >= 0.10.3)
       rb-inotify (~> 0.9, >= 0.9.10)
@@ -14,6 +15,7 @@ GEM
     rb-inotify (0.10.1)
       ffi (~> 1.0)
     repla (0.10.4)
+    rexml (3.2.4)
 
 PLATFORMS
   ruby
